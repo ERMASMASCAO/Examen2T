@@ -16,6 +16,7 @@ public class persona {
         this.dni = dni;
         this.domicilio = domicilio;
         this.personas = personas;
+        System.out.println("nombre: " + " " + nombre + "Apellido: " + " " + apellido + "Edad: " + " " + edad + "DNI: " + " " + dni +  "Domicilio: " + " " + domicilio);
     }
     public persona(){
         nombre = "Maria";
