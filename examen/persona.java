@@ -60,4 +60,7 @@ public class persona {
     public void eliminarPersona(){
 
     }
+    public void imprimir (){
+        System.out.println("nombre: " + " " + nombre + "Apellido: " + " " + apellido + "Edad: " + " " + edad + "DNI: " + " " + dni +  "Domicilio: " + " " + domicilio);
+    }
 }
